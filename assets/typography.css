@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+	background: #151b29;
+	color: white;
+}
+
+#submit-val {
+  background: none;
+  color:#ffa260;
+  border: 2px solid;
+  padding: 0.25em 1em;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+
+#submit-val:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.firstelement {
+	padding-left: 30px;
+}
+
+.dropdown {
+	color: #34baeb;
+}
+
+.datatable {
+	padding-left: 30px;
+	color: black;
+}
